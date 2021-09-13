@@ -9,20 +9,20 @@ this date. The "goal" field refers to the presence of heart disease in the patie
 
 ### Attribute Information:
 
-age
-sex
-chest pain type (4 values)
-resting blood pressure
-serum cholestoral in mg/dl
-fasting blood sugar > 120 mg/dl
-resting electrocardiographic results (values 0,1,2)
-maximum heart rate achieved
-exercise induced angina
-oldpeak = ST depression induced by exercise relative to rest
-the slope of the peak exercise ST segment
-number of major vessels (0-3) colored by flourosopy
-thal: 3 = normal; 6 = fixed defect; 7 = reversable defect
-The names and social security numbers of the patients were recently removed from the database, replaced with dummy values. One file has been "processed", that one containing the Cleveland database. All four unprocessed files also exist in this directory.
+* age - age in years
+* sex - (1 = male; 0 = female)
+* cp - chest pain type
+* trestbps - resting blood pressure (in mm Hg on admission to the hospital)
+* chol - serum cholestoral in mg/dl
+* fbs - (fasting blood sugar > 120 mg/dl) (1 = true; 0 = false)
+* restecg - resting electrocardiographic results
+* thalach - maximum heart rate achieved
+* exang - exercise induced angina (1 = yes; 0 = no)
+* oldpeak - ST depression induced by exercise relative to rest
+* slope - the slope of the peak exercise ST segment
+* ca - number of major vessels (0-3) colored by flourosopy
+* thal - 3 = normal; 6 = fixed defect; 7 = reversable defect
+* target - have disease or not (1=yes, 0=no)
 
 To see Test Costs (donated by Peter Turney), please see the folder "Costs"
 
